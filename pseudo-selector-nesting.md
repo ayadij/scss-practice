@@ -1,0 +1,5 @@
+So far we've discussed how we can implement nesting in SCSS and how we can use that to be able to organize our class definitions and make sure that the styles that we're defining are the ones we actually want to implement inside of the HTML doc. So what we're going to talk about in this guide is how we can implement nesting with pseudo selectors.
+
+Pseudo selectors give you the ability to select the style that you give an element given a different state than just the standard one. For example if we decide to make a subheading into a link, By using an <a> tag that will create the link.
+
+So whenever we style links we actually have to define the way we're styling them and we have to tell SCSS that we're going to define the style for a link. So now if I add in an a right here right after subheading you can see that the color has now changed to red.
